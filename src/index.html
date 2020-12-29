@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Snake</title>
+  </head>
+  <body>
+    <header>
+      <h1>SNAKE</h1>
+    </header>
+    <section class="snake">
+      <div class="game-field">
+        <div class="score-field hide">Score</div>
+        <canvas class="game hide" width="400px" height="360px"></canvas>
+        <button class="start-button">START</button>
+      </div>
+      <div class="info">
+        <h2>Info</h2>
+        <p>
+          A traditional snake game. You can control the movement using the arrow
+          keys or A, S, D, W keys.
+        </p>
+        <div class="edgeless">
+          <h2>Edgeless Mode</h2>
+          <label class="switch">
+            <input type="checkbox" value="edgeless" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </section>
+    <script src="./scripts/init.js"></script>
+  </body>
+</html>
